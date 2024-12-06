@@ -26,6 +26,7 @@
  * r_d = 1, b = r_b*(e/(e+P)), e = 0.005
  * r_b = 1*(1 + alpha*t), for 0<=x<=0.5
  * r_b = 100*(1 + alpha*t), for 0.5<x<=1
+ * alpha = 0.001 (neg for declining birth rate)
  * k = 0.02, 0.04 (with diffusion) or 0(without diffusion)
  *
  * The spatial derivatives are computed using second-order
