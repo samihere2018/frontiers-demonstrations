@@ -23,6 +23,10 @@
  * and a point-source heating term,
  *    f(0,x) is a random value in [0.8 1.2]
  *    f(t,x) = 0, for all t>0
+ * r_d = 1, b = r_b*(e/(e+P)), e = 0.005
+ * r_b = 1*(1 + alpha*t), for 0<=x<=0.5
+ * r_b = 100*(1 + alpha*t), for 0.5<x<=1
+ * k = 0.02, 0.04 (with diffusion) or 0(without diffusion)
  *
  * The spatial derivatives are computed using second-order
  * centered differences, with the data distributed over N points
